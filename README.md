@@ -10,5 +10,6 @@ Script use examples:<br>
   <b>python lednet.py 10.10.123.3 5577 FF0000</b>  - switch ON RED only<br>
   <b>python lednet.py 10.10.123.3 5577 00FF00</b>  - GREEN only<br>
   <b>python lednet.py 10.10.123.3 5577 0000FF</b>  - BLUE only<br>
+  <b>python lednet.py 10.10.123.3 5577 FF00FF</b>  - PURPLE (Red plus Blue)<br>
   <b>python lednet.py 10.10.123.3 5577 000000</b>  - ALL LEDS OFF
   
