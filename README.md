@@ -7,8 +7,8 @@ After buying at RGB LED Strip controller like the one shown, I discovered that i
 <br>When connected to the LEDnet003324007 access point, my machine was given an IP address of 10.10.123.4. Scanning this network using nmap discovered the gateway address of of the controller:  10.10.123.3. 
 
 Script use examples:
-  python lednet.py 10.10.123.3 5577 FF0000  - RED
-  python lednet.py 10.10.123.3 5577 00FF00  - GREEN
-  python lednet.py 10.10.123.3 5577 0000FF  - BLUE
+  python lednet.py 10.10.123.3 5577 FF0000  - RED<br>
+  python lednet.py 10.10.123.3 5577 00FF00  - GREEN<br>
+  python lednet.py 10.10.123.3 5577 0000FF  - BLUE<br>
   python lednet.py 10.10.123.3 5577 000000  - ALL LEDS OFF
   
