@@ -1,4 +1,4 @@
-# LED-Wifi
+# LED-Wifi control using Python
 Controlling Wifi Enabled LED Strip from Python
 
 <img src='https://github.com/Jppx/LED-Wifi/blob/main/LED_WIFI_CONTROLLER2.jpg'/>
