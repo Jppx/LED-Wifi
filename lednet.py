@@ -30,8 +30,7 @@ def doLEDSend():
             client_socket = socket.socket()  # instantiate the tcp socket
             try:            
                 client_socket.connect((address, port))  # connect to the LED server 
-                ops = bytearray(olist)
-                client_socket.send(ops)  # send olist byte array
+                client_socket.send(bytearray(olist))  # send olist byte array
             except Exception as e:
                  print ('Error sending message - ' + e.message)
                  print ('')
